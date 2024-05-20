@@ -9,16 +9,13 @@
 * @version 1.0
 * @since   20/05/2024
 */
-
-
-
 import java.util.Scanner; 
 import java.util.Random; 
-
+/**
+ * Este classe é utilizado para armazenar os tributos como Nome, Agencia, Numero da conta e o saldo.
+ */
 public class ContaTerminal {
-	/**
-	   * Este classe é utilizado para armazenar os tributos como Nome, Agencia, Numero da conta e o saldo.
-	   */
+	
     private String nomeCliente;
     private String agencia; 
     private int numero; 
@@ -59,6 +56,7 @@ public class ContaTerminal {
     }
 
     public static void main(String[] args) {
+    	
         ContaTerminal conta = new ContaTerminal(); // Cria um objeto da classe ContaTerminal
         Scanner scanner = new Scanner(System.in); // Cria um objeto Scanner para ler dados do terminal
         Random random = new Random(); // Cria um objeto Random para gerar números aleatórios
